@@ -1,0 +1,75 @@
+##################################################
+# CLIENTE (React)
+##################################################
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencias
+client/node_modules/
+node_modules/
+
+# Builds
+client/dist/
+client/dist-ssr/
+dist/
+*.local
+
+# Archivos del editor (IDE)
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+##################################################
+# SERVIDOR (.NET)
+##################################################
+
+# Compilados y temporales
+server/bin/
+server/obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+
+# Configuración de usuario
+*.user
+*.userosscache
+*.suo
+*.vs/
+.vscode/
+
+# Archivos de publicación y paquetes NuGet
+*.nupkg
+*.snupkg
+project.lock.json
+artifacts/
+
+# Migraciones temporales (opcional)
+*.dbmdl
+*.bak
+*.sql
+
+##################################################
+# GENERALES
+##################################################
+
+# Archivos temporales o de sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.tmp
