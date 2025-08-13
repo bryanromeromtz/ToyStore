@@ -18,18 +18,17 @@ cd client/toy-store-client
 npm install
 npm run dev
 
-### Server
-cd server
-# (instrucciones de .NET, migraciones, etc.)
+## Server
+### (instrucciones de .NET, migraciones, etc.)
 
-# Ir a la carpeta del servidor
+### Ir a la carpeta del servidor
 cd server/ToyStore
 
-# Restaurar dependencias .NET
+### Restaurar dependencias .NET
 dotnet restore
 
-# Aplicar migraciones de base de datos
+### Aplicar migraciones de base de datos
 dotnet ef database update
 
-# Ejecutar el servidor
+### Ejecutar el servidor
 dotnet run
