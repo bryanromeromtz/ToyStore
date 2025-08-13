@@ -1,0 +1,13 @@
+# Ignorar carpetas de compilación
+bin/
+obj/
+
+# Configuraciones de usuario
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de paquetes NuGet
+*.nupkg
+project.lock.json

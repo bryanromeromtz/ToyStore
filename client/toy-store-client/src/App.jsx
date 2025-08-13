@@ -3,7 +3,7 @@ import ProductList from './ProductList';
 import ProductForm from './ProductForm';
 
 export default function App() {
-  const [mode, setMode] = useState('list'); // 'list' | 'create' | 'edit'
+  const [mode, setMode] = useState('list'); 
   const [editingProduct, setEditingProduct] = useState(null);
 
   const goList = () => { setMode('list'); setEditingProduct(null); };

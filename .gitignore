@@ -58,11 +58,6 @@ server/obj/
 project.lock.json
 artifacts/
 
-# Migraciones temporales (opcional)
-*.dbmdl
-*.bak
-*.sql
-
 ##################################################
 # GENERALES
 ##################################################
